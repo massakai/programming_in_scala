@@ -9,4 +9,8 @@ object Appli extends App {
 
   // 演算子を定義していないのでエラーになる
   // (oneHalf / 7) + (1 - twoThirds)
+
+  // 事前条件によって例外IllegalArgumentExceptionが発生する
+  // val wrongRational = new Rational(5, 0)
+  // println("wrongRational: Rational = " + wrongRational)
 }
