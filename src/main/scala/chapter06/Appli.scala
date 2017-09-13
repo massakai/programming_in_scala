@@ -23,4 +23,7 @@ object Appli extends App {
 
   println(s"$oneHalf lessThan $twoThirds = ${oneHalf lessThan twoThirds}")
   println(s"max($oneHalf, $twoThirds) = ${oneHalf.max(twoThirds)}")
+
+  val y = new Rational(3)
+  println(y)
 }
