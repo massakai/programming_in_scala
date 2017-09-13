@@ -8,14 +8,14 @@ class Rational(n: Int, d: Int) {
   // 補助コンストラクタ
   def this(n: Int) = this(n, 1)
 
-  override def toString = numer + "/" + denom
+  override def toString: String = numer + "/" + denom
 
   def add(that: Rational): Rational =
     new Rational(numer * that.denom + that.numer * denom, denom * that.denom)
 
-  def lessThan(that: Rational) =
+  def lessThan(that: Rational): Boolean =
     this.numer * that.denom < that.numer * this.denom
 
-  def max(that: Rational) =
+  def max(that: Rational): Rational =
     if (this.lessThan(that)) that else this
 }
