@@ -20,4 +20,7 @@ object Appli extends App {
   val r = new Rational(1, 2)
   println(s"r.numer = ${r.numer}")
   println(s"r.denom = ${r.denom}")
+
+  println(s"$oneHalf lessThan $twoThirds = ${oneHalf lessThan twoThirds}")
+  println(s"max($oneHalf, $twoThirds) = ${oneHalf.max(twoThirds)}")
 }
