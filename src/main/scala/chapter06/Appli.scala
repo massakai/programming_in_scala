@@ -22,6 +22,10 @@ object Appli extends App {
   println(s"$y * $y = ${y * y}")
   println(s"$y * 2 = ${y * 2}")
 
+  // 暗黙の型変換
+  implicit def intToRational(x: Int) = new Rational(x)
+  println(s"2 * $y = ${2 * y}")
+
   val r = new Rational(1, 2)
   println(s"r.numer = ${r.numer}")
   println(s"r.denom = ${r.denom}")
