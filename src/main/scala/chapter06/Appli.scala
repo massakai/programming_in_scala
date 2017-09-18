@@ -19,6 +19,9 @@ object Appli extends App {
   println(s"($x + $x) * $y = ${(x + x) * y}")
   println(s"$x + ($x * $y) = ${x + (x * y)}")
 
+  println(s"$y * $y = ${y * y}")
+  println(s"$y * 2 = ${y * 2}")
+
   val r = new Rational(1, 2)
   println(s"r.numer = ${r.numer}")
   println(s"r.denom = ${r.denom}")
