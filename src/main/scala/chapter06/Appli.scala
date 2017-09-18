@@ -26,4 +26,6 @@ object Appli extends App {
 
   val y = new Rational(3)
   println(y)
+
+  println(new Rational(66, 42))
 }
