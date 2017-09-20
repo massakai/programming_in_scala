@@ -11,7 +11,7 @@ def gcdLoop(x: Long, y: Long): Long = {
 
 var line = ""
 do {
-  line = readLine()
+  line = scala.io.StdIn.readLine()
   println("Read: " + line)
 } while (line != "")
 
@@ -21,7 +21,7 @@ def greet() = {
 () == greet()
 
 var line2 = ""
-while ((line2 = readLine()) != "") // うまく働かない
+while ((line2 = scala.io.StdIn.readLine()) != "") // うまく働かない
   println("Read: " + line2)
 
 def gcd(x: Long, y: Long): Long =
