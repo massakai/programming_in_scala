@@ -51,6 +51,7 @@ object Section9 extends App {
     def isOdd(x: Int): Boolean =
       if (x == 0) false else isEven(x - 1)
 
+    // Error: forward reference extends over definition of value funValue
     val funValue = nestedFun _
 
     def nestedFun(x: Int): Unit = {
