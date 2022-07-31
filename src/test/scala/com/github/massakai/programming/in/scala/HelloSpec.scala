@@ -1,6 +1,5 @@
 package com.github.massakai.programming.in.scala
 
-import com.github.massakai.programming.in.scala.Hello
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should
 
