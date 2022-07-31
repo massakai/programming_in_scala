@@ -1,4 +1,4 @@
-package example
+package com.github.massakai.programming.in.scala
 
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should
